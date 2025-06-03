@@ -1,8 +1,35 @@
 # 🛒 Proyecto SOAP 
-# GITHUB : https://github.com/MisaelMarron/LabSD
 
 # 🛒 Proyecto SOAP - RESUELTO:
+# SOAPClient - Cliente Java para consumir un servicio SOAP
 
+Este proyecto es un cliente Java que consume un servicio SOAP de una tienda en línea, generado usando `wsimport` y compatible con **JDK 8**.
+
+---
+
+---
+
+## ✅ Requisitos
+
+- JDK 8 instalado y configurado en el `PATH`
+- Eclipse (opcional, para desarrollo)
+- Servicio SOAP en ejecución (por ejemplo, en `http://localhost:8080/StoreService?wsdl`)
+
+---
+
+## ⚙️ Instalación
+
+1. Clona o copia el proyecto en tu máquina local:
+
+```bash
+git clone https://github.com/MisaelMarron/LabSD
+
+Tenemos que ejecutar PublishServices.java
+
+para que el servidor se aloje en http://localhost:1516/WS/Users?wsdl
+luego ejecutamos en SOAPClient el archivo : UserClient
+
+VEMOS COMO SE HACE LA CONECCION Y SE CREAN USERS
 # 🛒 Proyecto SOAP - Tienda Online
 
 Este proyecto implementa una aplicación Java basada en servicios web **SOAP**, desarrollada con **JDK 1.8** en **Eclipse IDE**. Está compuesta por dos módulos:
